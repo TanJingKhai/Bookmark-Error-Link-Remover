@@ -1,0 +1,31 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>404 Bookmarks</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="icon" type="image/svg+xml" href="icon.svg">
+</head>
+<body>
+
+<div id="404-errors-ctr">
+<h1>Expired bookmarks</h1>
+<ul id="404-errors"></ul>
+<a href="#" class="remove disabled">Select bookmarks to remove</a> <a href="#" class="select-all">Select all</a>
+</div>
+
+<div id="other-errors-ctr">
+<h1>Other bookmarks</h1>
+<p>These bookmarks <em>might not be expired</em>, but some other error occurred while looking up the page.</p>
+<ul id="other-errors"></ul>
+<a href="#" class="remove disabled">Select bookmarks to remove</a> <a href="#" class="select-all">Select all</a>
+</div>
+
+<div id="unexpired">Found <span id="live"></span> unexpired bookmarks.</div>
+
+<script src="script.js"></script>
+</body>
+</html>
